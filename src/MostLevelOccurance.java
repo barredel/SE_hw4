@@ -1,3 +1,3 @@
-public class MostLevelOccurance {
+public class MostLevelOccurence {
     
 }
