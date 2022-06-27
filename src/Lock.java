@@ -1,9 +1,6 @@
-public class Lock
-{
-    public interface Lock extends AutoCloseable {
-        void acquire();
-        boolean tryAcquire();
-        void release();
-    }
-
+public interface Lock extends AutoCloseable {
+    void acquire();
+    boolean tryAcquire();
+    void release();
 }
+
