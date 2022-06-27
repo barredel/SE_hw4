@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         testPartA();
-        testPartB();
+        //testPartB();
     }
 
     private static void testPartA() {
         System.out.println("Testing part A...");
         testPartA1();
-        testPartA2();
+        //testPartA2();
     }
 
     private static void testPartA1() {
@@ -47,7 +47,7 @@ public class Main {
         System.out.println();
     }
 
-    private static void testPartB() {
+    /*private static void testPartB() {
         System.out.println("Testing part B...");
         for (int i = 0; i < 100; i++) {
             Counter.count = 0;
@@ -95,11 +95,11 @@ public class Main {
         } else {
             System.out.println("You should not reach here!");
         }
-    }
+    }*/
 }
 
 
-class Counter {
+/*class Counter {
     public static int count = 0;
 }
 
@@ -157,4 +157,4 @@ class TryWithResourcesAcquireWorker extends Worker {
             }
         }
     }
-}
+}*/
