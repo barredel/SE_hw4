@@ -54,7 +54,7 @@ public class DateCalculator
                 {
                     if(date.getDay()+ num > 31)
                     {
-                        return addToDate(new Date(1, 1, date.getYear() + 1), num - 31 + date.getDay());
+                        return addToDate(new Date(1, 1, date.getYear() + 1), num - 31 + date.getDay()-1); //to see about -1
                     }
                     else
                     {
@@ -66,7 +66,7 @@ public class DateCalculator
                     if(date.getDay()+num > daysInMonth(date))
                     {
                         return addToDate(new Date(1, date.getMonth()+1, date.getYear()),
-                                num - daysInMonth(date) + date.getDay());
+                                num - daysInMonth(date) + date.getDay()-1);
                     }
                     else
                     {
