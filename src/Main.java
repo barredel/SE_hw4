@@ -47,7 +47,8 @@ public class Main {
         System.out.println();
     }
 
-    private static void testPartB() {
+
+    /* private static void testPartB() {
         System.out.println("Testing part B...");
         for (int i = 0; i < 100; i++) {
             Counter.count = 0;
@@ -156,5 +157,5 @@ class TryWithResourcesAcquireWorker extends Worker {
                 lock.release();
             }
         }
-    }
+    }*/
 }
