@@ -2,12 +2,12 @@
 import java.util.Queue;
 
  /**
-  * class represent the level with most occurrences of num
+  * class represents the level with most occurrences of a number
   */
  public class LevelMostOccurrences {
      /**
-      * get the level with the most occurrences of num in a specific binary tree.
-      * @param node - the node of the binary tree.
+      * gets the level with the most occurrences of a number in a specific binary tree.
+      * @param node - the root node of the binary tree.
       * @param num - the number we want to get the level with the most occurrences of it.
       * @return the level with most occurrences of num.
       */
