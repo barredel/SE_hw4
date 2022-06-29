@@ -8,7 +8,7 @@ import java.util.Queue;
         Queue<BinNode<Integer>>  kids = new ArrayDeque<>();
         int levelMostOccurrences = -1;
         int currentLevel = 0;
-        int maxOccurrences=0;
+        int maxOccurrences = 0;
         int levelOccurrences = 0;
 
         parents.add(node);
@@ -28,13 +28,13 @@ import java.util.Queue;
             {
                 kids.add(data.getLeft());
             }
-            if(levelOccurrences>maxOccurrences)
-            {
-                maxOccurrences = levelOccurrences;
-                levelMostOccurrences = currentLevel;
-            }
             if(parents.isEmpty())
             {
+                if(levelOccurrences > maxOccurrences)
+                {
+                    maxOccurrences = levelOccurrences;
+                    levelMostOccurrences = currentLevel;
+                }
                 currentLevel++;
                 levelOccurrences = 0;
                 while (!kids.isEmpty())
