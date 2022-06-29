@@ -52,7 +52,6 @@ import java.util.Queue;
                 }
             }
         }
-
         return levelMostOccurrences;
     }
 }
